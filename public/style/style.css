@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.header-nav, .header-text, .header-divider, .header-buttons{
+    padding: 70px;
+}
+header{
+    background-image: url(../image/Section\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+.about, .reservations{
+    background-image: url(../image/Section\ B.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.menu{
+    background-image: url(../image/MenuBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.reservations{
+    background-image: url(../image/Section\ B.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ingredients{
+    background-image: url(../image/bgIngredients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.reviews{
+    background-image: url(../image/reviesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.ingredients-cover{
+    background-color: #101913;
+    opacity: 50%;
+}
+.reviews-cover{
+    background-color: #101913;
+    opacity: 50%; 
+}
+.nav:hover{
+    color: #ffc107;
+}
+footer{
+    background: #101913;
+}
+@media screen and (max-width: 992px) {
+    #disappearingBlock{
+        display: none;
+    }
+  }
+  
